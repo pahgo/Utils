@@ -10,9 +10,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * The {@code DynamicSorter<T>} class provides dynamic, easy and stable ordering
+ * for lists.
  * 
- * @author Pahgo The {@code DynamicSorter<T>} class provides dynamic, easy and
- *         stable ordering for lists.
+ * @author Pahgo
+ * 
  * @param <T>
  */
 public class DynamicSorter<T> {
