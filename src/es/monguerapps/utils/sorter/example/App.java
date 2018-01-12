@@ -19,11 +19,12 @@ public class App {
 		sorter.reorderList(people);
 		for (Person p : people)
 			System.out.println(p);
+
 	}
 
 	private static void generatePeople() {
 		Person p;
-		p = new Person("1", "BBB", 70, new Date(System.currentTimeMillis() - (23 * 365 * 24 * 60 * 60 * 1000)));
+		p = new Person(null, "BBB", 70, new Date(System.currentTimeMillis() - (23 * 365 * 24 * 60 * 60 * 1000)));
 		people.add(p);
 		p = new Person("1.0", "BBB", 70, new Date(System.currentTimeMillis() - (24 * 365 * 24 * 60 * 60 * 1000)));
 		people.add(p);
